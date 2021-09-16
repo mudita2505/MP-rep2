@@ -133,3 +133,6 @@ REST_FRAMEWORK = {
         'knox.auth.TokenAuthentication',
     ]
 }
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
