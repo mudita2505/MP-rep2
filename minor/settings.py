@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'knox','app3',
+    'knox','app3',"corsheaders",
 ]
 
 MIDDLEWARE = [
