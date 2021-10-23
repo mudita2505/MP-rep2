@@ -17,4 +17,10 @@ class Option(models.Model):
     options=models.CharField(max_length=100,default='none')
     def __str__(self):
         return self.options
+  
+class Disease(models.Model):
+    symp=models.ManyToManyField(Symptom)
+    disease=models.CharField(max_length=300)
+    def __str__(self):
+        return self.disease
    
