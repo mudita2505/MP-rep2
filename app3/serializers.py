@@ -1,7 +1,7 @@
 from django.db.models import fields
 from rest_framework import serializers
 from django.contrib.auth.models import User
-from app3.models import Symptom, Question, Option
+from app3.models import Symptom, Question, Option, Disease
 # User Serializer
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
@@ -39,3 +39,9 @@ class Questionserializer(serializers.ModelSerializer):
 #     class Meta:
 #         model = Option
 #         fields =('opt','optio')
+
+class Diseaseserializer(serializers.ModelSerializer):
+    symptom = serializers.CharField(source='symp')
+    class Meta:
+        model = Disease
+        fields = ('symptom','disease')
