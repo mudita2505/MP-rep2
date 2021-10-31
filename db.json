@@ -1,0 +1,948 @@
+[
+  { "model": "app3.symptom", "pk": 11, "fields": { "symptom": "Ear Pain" } },
+  { "model": "app3.symptom", "pk": 12, "fields": { "symptom": "Fever" } },
+  { "model": "app3.symptom", "pk": 13, "fields": { "symptom": "Fussiness" } },
+  {
+    "model": "app3.symptom",
+    "pk": 14,
+    "fields": { "symptom": "Difficulty in sleeping" }
+  },
+  {
+    "model": "app3.symptom",
+    "pk": 15,
+    "fields": { "symptom": "Tugging at ear" }
+  },
+  {
+    "model": "app3.symptom",
+    "pk": 16,
+    "fields": { "symptom": "Running nose" }
+  },
+  { "model": "app3.symptom", "pk": 17, "fields": { "symptom": "Stuffy nose" } },
+  { "model": "app3.symptom", "pk": 18, "fields": { "symptom": "Coughing" } },
+  { "model": "app3.symptom", "pk": 19, "fields": { "symptom": "Sneezing" } },
+  {
+    "model": "app3.symptom",
+    "pk": 20,
+    "fields": { "symptom": "Sore throat with running nose" }
+  },
+  {
+    "model": "app3.symptom",
+    "pk": 21,
+    "fields": { "symptom": "Watery eyes with running nose" }
+  },
+  {
+    "model": "app3.symptom",
+    "pk": 22,
+    "fields": { "symptom": "Skin redness" }
+  },
+  {
+    "model": "app3.symptom",
+    "pk": 23,
+    "fields": { "symptom": "Swelling of affected area" }
+  },
+  {
+    "model": "app3.symptom",
+    "pk": 24,
+    "fields": { "symptom": "Pain, tenderness on skin" }
+  },
+  { "model": "app3.symptom", "pk": 25, "fields": { "symptom": "Headache" } },
+  { "model": "app3.symptom", "pk": 26, "fields": { "symptom": "Dizziness" } },
+  { "model": "app3.symptom", "pk": 27, "fields": { "symptom": "Numbness" } },
+  { "model": "app3.symptom", "pk": 28, "fields": { "symptom": "Nausea" } },
+  { "model": "app3.symptom", "pk": 29, "fields": { "symptom": "Eye Strain" } },
+  {
+    "model": "app3.symptom",
+    "pk": 30,
+    "fields": { "symptom": "Redness in eyes" }
+  },
+  {
+    "model": "app3.symptom",
+    "pk": 31,
+    "fields": { "symptom": "Blurry vision" }
+  },
+  { "model": "app3.symptom", "pk": 32, "fields": { "symptom": "Dry eyes" } },
+  {
+    "model": "app3.symptom",
+    "pk": 33,
+    "fields": { "symptom": "Pain in stomach" }
+  },
+  {
+    "model": "app3.symptom",
+    "pk": 34,
+    "fields": { "symptom": "Nausea and vomiting" }
+  },
+  {
+    "model": "app3.symptom",
+    "pk": 35,
+    "fields": { "symptom": "Constipation" }
+  },
+  { "model": "app3.symptom", "pk": 36, "fields": { "symptom": "Gas" } },
+  {
+    "model": "app3.question",
+    "pk": 7,
+    "fields": { "symp": 11, "question": "How intense is your ear pain?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 8,
+    "fields": { "symp": 11, "question": "Is the pain constant?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 9,
+    "fields": { "symp": 12, "question": "How intense is your fever?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 10,
+    "fields": {
+      "symp": 12,
+      "question": "Do you feel nauseous along with having fever?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 11,
+    "fields": { "symp": 13, "question": "Do you feel irritation in the ears?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 12,
+    "fields": {
+      "symp": 13,
+      "question": "Is the fussiness constant along with the ear pain?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 13,
+    "fields": {
+      "symp": 15,
+      "question": "Is there a constant tugging in your ear?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 14,
+    "fields": {
+      "symp": 15,
+      "question": "Had you tried to put something through your ear?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 15,
+    "fields": {
+      "symp": 16,
+      "question": "Do you have a constantly running nose?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 16,
+    "fields": { "symp": 16, "question": "Is there pain in your nose?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 17,
+    "fields": { "symp": 17, "question": "Is your nose constantly blocked?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 18,
+    "fields": {
+      "symp": 17,
+      "question": "Do have difficulty in breathing due to blocked nose?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 19,
+    "fields": {
+      "symp": 18,
+      "question": "Do have cough along with running nose?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 20,
+    "fields": { "symp": 18, "question": "Is it drooling cough?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 21,
+    "fields": { "symp": 19, "question": "Do you sneeze a lot through the day?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 22,
+    "fields": { "symp": 19, "question": "Do you have any allergies?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 23,
+    "fields": { "symp": 19, "question": "Are there rashes on your nose?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 24,
+    "fields": {
+      "symp": 20,
+      "question": "Does your throat ache along with running nose?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 25,
+    "fields": { "symp": 20, "question": "Do you have difficulty in speaking?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 26,
+    "fields": { "symp": 21, "question": "Are your eyes itchy and burning?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 27,
+    "fields": { "symp": 21, "question": "Have your eyes turned red?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 28,
+    "fields": {
+      "symp": 20,
+      "question": "Is there mucus dripping down your throat?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 29,
+    "fields": { "symp": 22, "question": "Are there rashes on your skin?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 30,
+    "fields": { "symp": 22, "question": "Are there spots on your skin?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 31,
+    "fields": {
+      "symp": 22,
+      "question": "Is there bleeding or inflammation on the skin?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 32,
+    "fields": { "symp": 23, "question": "Do have any skin related allergies?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 33,
+    "fields": {
+      "symp": 23,
+      "question": "Has your skin turned hard and swollen up?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 34,
+    "fields": {
+      "symp": 23,
+      "question": "Are there blue bruises on the swollen are?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 35,
+    "fields": { "symp": 24, "question": "How intense is your skin pain?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 36,
+    "fields": { "symp": 24, "question": "Is there itching along with pain?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 37,
+    "fields": { "symp": 24, "question": "Are there boils on your skin?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 38,
+    "fields": { "symp": 25, "question": "Is the pain constant?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 39,
+    "fields": {
+      "symp": 25,
+      "question": "Which particular side of the head is paining?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 40,
+    "fields": { "symp": 25, "question": "How intense is your head ache?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 41,
+    "fields": { "symp": 26, "question": "Do you feel dizzy through the day?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 42,
+    "fields": {
+      "symp": 26,
+      "question": "Is there light-headedness or an imbalance that you experience?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 43,
+    "fields": { "symp": 27, "question": "Do you feel numb/unresponsive?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 44,
+    "fields": { "symp": 27, "question": "Do you feel blacked out?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 45,
+    "fields": {
+      "symp": 28,
+      "question": "Is there a nausea along with headache?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 46,
+    "fields": {
+      "symp": 28,
+      "question": "Have you been vomiting after the headache started?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 47,
+    "fields": {
+      "symp": 29,
+      "question": "Have your eyes been straining since long?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 48,
+    "fields": {
+      "symp": 29,
+      "question": "Is there difficulty in moving your eyes?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 49,
+    "fields": {
+      "symp": 29,
+      "question": "Have you been watching screen for long?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 51,
+    "fields": { "symp": 30, "question": "Are both your eyes red?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 52,
+    "fields": { "symp": 30, "question": "Is there itching along with redness?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 53,
+    "fields": {
+      "symp": 31,
+      "question": "Are you not able to see clearly beyond a distance?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 54,
+    "fields": { "symp": 31, "question": "Do you wear glasses?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 55,
+    "fields": {
+      "symp": 32,
+      "question": "Is there pain in your eyes along with dryness?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 56,
+    "fields": { "symp": 32, "question": "Do you feel irritation in the eyes?" }
+  },
+  {
+    "model": "app3.question",
+    "pk": 58,
+    "fields": {
+      "symp": 33,
+      "question": "Which area of the stomach is paining?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 59,
+    "fields": {
+      "symp": 33,
+      "question": "Is the pain more like cramping or constant?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 60,
+    "fields": {
+      "symp": 34,
+      "question": "Have you been vomiting after the stomach ache started?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 61,
+    "fields": {
+      "symp": 34,
+      "question": "Is there difficulty in breathing during vomiting?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 62,
+    "fields": {
+      "symp": 35,
+      "question": "Have you consumed any outside food in the past?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 63,
+    "fields": {
+      "symp": 35,
+      "question": "For how long have you been experiencing indigestion?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 64,
+    "fields": {
+      "symp": 36,
+      "question": "Have you been skipping meals in the past?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 65,
+    "fields": {
+      "symp": 36,
+      "question": "Have you been eating more than you regularly do in the past?"
+    }
+  },
+  {
+    "model": "app3.question",
+    "pk": 66,
+    "fields": { "symp": 36, "question": "Is there cramping in your stomach?" }
+  },
+  {
+    "model": "app3.option",
+    "pk": 12,
+    "fields": { "opt": 7, "options": "Intense pain." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 13,
+    "fields": { "opt": 7, "options": "Mild pain" }
+  },
+  {
+    "model": "app3.option",
+    "pk": 14,
+    "fields": { "opt": 7, "options": "Light pain" }
+  },
+  {
+    "model": "app3.option",
+    "pk": 15,
+    "fields": { "opt": 8, "options": "Yes, constantly paining." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 16,
+    "fields": { "opt": 8, "options": "No, at intervals." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 17,
+    "fields": { "opt": 9, "options": "Intense fever." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 18,
+    "fields": { "opt": 9, "options": "Mild fever." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 19,
+    "fields": { "opt": 9, "options": "Light fever." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 20,
+    "fields": { "opt": 10, "options": "Yes, there is a feeling of nausea." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 21,
+    "fields": { "opt": 10, "options": "No, I am not nauseous." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 22,
+    "fields": {
+      "opt": 11,
+      "options": "Yes, there is an irritation in the ears."
+    }
+  },
+  {
+    "model": "app3.option",
+    "pk": 23,
+    "fields": { "opt": 11, "options": "No,only pain." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 24,
+    "fields": { "opt": 12, "options": "Yes, constant fussiness." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 25,
+    "fields": { "opt": 12, "options": "No, at intervals." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 26,
+    "fields": { "opt": 13, "options": "Yes." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 27,
+    "fields": { "opt": 13, "options": "No" }
+  },
+  {
+    "model": "app3.option",
+    "pk": 28,
+    "fields": { "opt": 14, "options": "Yes, had done that lately." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 29,
+    "fields": { "opt": 14, "options": "No, I did not try anything like that." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 30,
+    "fields": { "opt": 29, "options": "Yes, throughout the affected area." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 31,
+    "fields": { "opt": 30, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 32,
+    "fields": { "opt": 30, "options": "Yes, throughout the affected area." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 33,
+    "fields": { "opt": 30, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 34,
+    "fields": { "opt": 31, "options": "Yes, there is bleeding." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 35,
+    "fields": { "opt": 31, "options": "Yes, there is inflammation." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 36,
+    "fields": { "opt": 31, "options": "Yes." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 37,
+    "fields": { "opt": 31, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 38,
+    "fields": { "opt": 32, "options": "Yes, have had in the past." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 39,
+    "fields": { "opt": 32, "options": "No, none." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 40,
+    "fields": { "opt": 33, "options": "Yes, it is hard and swollen." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 41,
+    "fields": { "opt": 33, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 42,
+    "fields": { "opt": 34, "options": "Yes, there are bruises on my skin." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 43,
+    "fields": { "opt": 34, "options": "No, none." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 44,
+    "fields": { "opt": 35, "options": "Intense pain." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 45,
+    "fields": { "opt": 35, "options": "Mild pain" }
+  },
+  {
+    "model": "app3.option",
+    "pk": 46,
+    "fields": { "opt": 35, "options": "Light pain" }
+  },
+  {
+    "model": "app3.option",
+    "pk": 47,
+    "fields": { "opt": 36, "options": "Yes, there is itching with the pain." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 48,
+    "fields": { "opt": 36, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 49,
+    "fields": { "opt": 37, "options": "Yes, there are itchy boils." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 50,
+    "fields": { "opt": 37, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 51,
+    "fields": { "opt": 38, "options": "Yes, constantly paining." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 52,
+    "fields": { "opt": 38, "options": "No, at intervals." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 53,
+    "fields": { "opt": 39, "options": "Left side." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 54,
+    "fields": { "opt": 39, "options": "Right Side." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 55,
+    "fields": { "opt": 39, "options": "Center." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 56,
+    "fields": { "opt": 39, "options": "Complete." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 57,
+    "fields": { "opt": 40, "options": "Heavy pain." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 58,
+    "fields": { "opt": 40, "options": "Light pain" }
+  },
+  {
+    "model": "app3.option",
+    "pk": 59,
+    "fields": { "opt": 40, "options": "Mild pain" }
+  },
+  {
+    "model": "app3.option",
+    "pk": 60,
+    "fields": { "opt": 41, "options": "Yes" }
+  },
+  {
+    "model": "app3.option",
+    "pk": 61,
+    "fields": { "opt": 41, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 62,
+    "fields": { "opt": 42, "options": "Yes." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 63,
+    "fields": { "opt": 42, "options": "No" }
+  },
+  {
+    "model": "app3.option",
+    "pk": 64,
+    "fields": { "opt": 43, "options": "Yes." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 65,
+    "fields": { "opt": 43, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 66,
+    "fields": { "opt": 44, "options": "Yes" }
+  },
+  {
+    "model": "app3.option",
+    "pk": 67,
+    "fields": { "opt": 44, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 68,
+    "fields": { "opt": 45, "options": "Yes, I feel like vomiting." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 69,
+    "fields": { "opt": 45, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 70,
+    "fields": { "opt": 46, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 71,
+    "fields": {
+      "opt": 46,
+      "options": "Yes, there was vomiting along with the headache."
+    }
+  },
+  {
+    "model": "app3.option",
+    "pk": 72,
+    "fields": { "opt": 47, "options": "Yes, my eyes feel tired." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 73,
+    "fields": { "opt": 47, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 74,
+    "fields": { "opt": 48, "options": "Yes, difficulty in movement." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 75,
+    "fields": { "opt": 48, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 76,
+    "fields": { "opt": 49, "options": "Yes." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 77,
+    "fields": { "opt": 49, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 78,
+    "fields": { "opt": 51, "options": "Yes." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 79,
+    "fields": { "opt": 51, "options": "No, only one." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 80,
+    "fields": { "opt": 52, "options": "Yes." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 81,
+    "fields": { "opt": 52, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 82,
+    "fields": { "opt": 53, "options": "Yes, my vision is imperfect." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 83,
+    "fields": { "opt": 53, "options": "No, I can see clearly." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 84,
+    "fields": { "opt": 54, "options": "Yes." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 85,
+    "fields": { "opt": 54, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 86,
+    "fields": { "opt": 55, "options": "Yes, constantly paining." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 87,
+    "fields": { "opt": 55, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 88,
+    "fields": { "opt": 55, "options": "Yes." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 89,
+    "fields": { "opt": 56, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 90,
+    "fields": { "opt": 58, "options": "Abdominal pain." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 91,
+    "fields": { "opt": 58, "options": "Lower." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 92,
+    "fields": { "opt": 58, "options": "Upper." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 93,
+    "fields": { "opt": 59, "options": "I experience cramps in between." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 94,
+    "fields": { "opt": 59, "options": "The pain is constant." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 95,
+    "fields": { "opt": 60, "options": "Yes." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 96,
+    "fields": { "opt": 60, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 97,
+    "fields": { "opt": 61, "options": "Yes." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 98,
+    "fields": { "opt": 61, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 99,
+    "fields": { "opt": 62, "options": "Yes, in the past." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 100,
+    "fields": { "opt": 62, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 101,
+    "fields": { "opt": 63, "options": "For a few days." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 102,
+    "fields": { "opt": 63, "options": "For a week." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 103,
+    "fields": { "opt": 64, "options": "Yes, once or twice." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 104,
+    "fields": { "opt": 64, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 105,
+    "fields": { "opt": 65, "options": "Yes, once or twice." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 106,
+    "fields": { "opt": 65, "options": "No." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 107,
+    "fields": { "opt": 66, "options": "Yes." }
+  },
+  {
+    "model": "app3.option",
+    "pk": 108,
+    "fields": { "opt": 66, "options": "No." }
+  }
+]
