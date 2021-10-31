@@ -19,10 +19,10 @@ class OptionAdmin(admin.ModelAdmin):
 @admin.register(Disease)
 class DiseaseAdmin(admin.ModelAdmin):
     list_display=['disease']
-    # list_display=['disease','get_disease']
+    list_display=['disease','get_disease']
 
-    # def get_disease(self):
-    #    return ",".join([str(p) for p in self.symp.all()])
+    def get_disease(self,obj):
+       return ",".join([str(p) for p in obj.symp.all()])
 
 @admin.register(Treatment)
 class TreatmentAdmin(admin.ModelAdmin):
