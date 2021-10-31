@@ -41,19 +41,19 @@ class Questionserializer(serializers.ModelSerializer):
 #         fields =('opt','optio')
 
 class Diseaseserializer(serializers.ModelSerializer):
-    symptom = serializers.CharField(source='symp')
+    disease = serializers.CharField(source='symp')
     class Meta:
         model = Disease
         fields = ('symptom','disease')
     
 class Treatmentserializer(serializers.ModelSerializer):
-    symptom = serializers.CharField(source='disease')
+    treatment = serializers.CharField(source='disease')
     class Meta:
         model = Treatment
         fields = ('disease','treatment')
     
 class Dietserializer(serializers.ModelSerializer):
-    symptom = serializers.CharField(source='treatment')
+    diet = serializers.CharField(source='treatment')
     class Meta:
         model = Diet
         fields = ('treatment','diet')
