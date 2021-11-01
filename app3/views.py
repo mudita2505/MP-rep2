@@ -151,7 +151,7 @@ def get_diet(request):
 
    if disease:
         try:
-            diets = Treatment.objects.get(disease=disease)
+            diets = Disease.objects.get(disease=disease)
         except:
             return Response({"error": "Treatment not found!"})
    
