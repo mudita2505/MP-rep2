@@ -32,7 +32,7 @@ class Treatment(models.Model):
         return self.treatment
     
 class Diet(models.Model):
-    diet=models.ForeignKey(Treatment,on_delete=CASCADE)
+    diet=models.ForeignKey(Disease,on_delete=CASCADE)
     diet_to_follow=models.CharField(max_length=500)
     def __str__(self):
         return self.diet_to_follow
