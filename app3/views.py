@@ -145,15 +145,15 @@ def get_treatment(request):
 
 @api_view(['GET'])
 def get_diet(request):
-   treatment = request.query_params.get('treatment', None)
+   disease = request.query_params.get('disease', None)
 
    queryset = Diet.objects.all()
 
-   if treatment:
+   if disease:
         try:
-            diets = Treatment.objects.get(treatment=treatment)
+            diets = Treatment.objects.get(disease=disease)
         except:
-            return Response({"error": "Trearment not found!"})
+            return Response({"error": "Treatment not found!"})
    
         queryset = queryset.filter(diet=diets)
 
